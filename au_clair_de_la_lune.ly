@@ -1,28 +1,18 @@
 \version "2.18.2"
+\include "common.ly"
+\include "colorize.ly"
 
-\paper { indent = 0 }
-
-#(set-global-staff-size 52)
-
-\layout {
-  \context {
-    \Score
-    \omit BarNumber
-  }
+\header {
+ title = "Au clair de la lune"
+ tagline = "" 
 }
-
-\header{
-  title = "Au clair de la lune"
-  tagline = "" 
-}
-
-% for reference
-% ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ◯
 
 \markup {
   \column {
-  \null
-  \fill-line { \column { \line { ① ② ③ ◯ ◯ ◯ ◯ ◯ }}}
+  \vspace #0.5
+  \fill-line { \column { \line { 
+    \fontsize #5 { \oc \od \oe \oo \oo \oo \oo \oo}}}}
+  \vspace #0.5
   }
 }
 
@@ -42,11 +32,10 @@
 
  \addlyrics {
     % set size to same as in header
-    \set fontSize = #-1
+    \set fontSize = #4
     \repeat "unfold" 2 {
-    ① ① ① ② ③ ②
-    ① ③ ② ② ①
-	}
+    	\oc \oc \oc \od \oe \od \oc \oe \od \od \oc
+    }
  }
 
  \addlyrics {

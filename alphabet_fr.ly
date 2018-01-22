@@ -1,45 +1,18 @@
 \version "2.18.2"
-\include "english.ly"
-#(set-global-staff-size 46)
- 
-\paper { 
-  indent = 0 
-  system-system-spacing = 
-    #'((basic-distance . 12) 
-       (minimum-distance . 5) 
-       (padding . 2) 
-       (stretchability . 10)) 
-}
-
-\layout {
-  \context {
-    \Score
-    \omit BarNumber
-  }
-  \context {
-    \Lyrics
-    \override VerticalAxisGroup.staff-affinity = ##f
-    \override VerticalAxisGroup.staff-staff-spacing =
-       #'((basic-distance . 0)
-	   (minimum-distance . 2)
-	   (padding . 2))
-  }
-}
+\include "common.ly"
+\include "colorize.ly"
 
 \header {
- title = "L'ALPHABET"
+ title = "L'Alphabet"
  tagline = "" 
 }
 
-% for reference
-% ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ◯
-
 \markup {
   \column {
-  \vspace #1
+  \vspace #0.5
   \fill-line { \column { \line { 
-    \fontsize #5 { ① ② ③ ④ ⑤ ⑥ ◯ ◯ }}}}
-  \vspace #1
+    \fontsize #5 { \oc \od \oe \of \og \oap \oo \oo}}}}
+  \vspace #0.5
   }
 }
 
@@ -61,12 +34,12 @@
 
 \addlyrics {
     \set fontSize = #4
-    ① ① ⑤ ⑤ ⑥ ⑥ ⑤
-       ④ ④ ③ ③ ② ② ② ② ①
-       ⑤ ⑤ ④ ③ ③ ②
-       ⑤ ⑤ ⑤ ④ ③ ③ ②
-       ① ① ⑤ ⑤ ⑥ ⑥ ⑤
-       ④ ④ ③ ③ ② ② ①
+    \oc \oc \og \og \oap \oap \og
+       \of \of \oe \oe \od \od \od \od \oc
+       \og \og \of \oe \oe \od
+       \og \og \og \of \oe \oe \od
+       \oc \oc \og \og \oap \oap \og       
+       \of \of \oe \oe \od \od \oc       
  }
 
 

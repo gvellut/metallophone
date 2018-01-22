@@ -1,45 +1,18 @@
 \version "2.18.2"
-\include "english.ly"
-#(set-global-staff-size 32)
+\include "common.ly"
+\include "colorize.ly"
 
-\paper { 
-  indent = 0 
-  system-system-spacing = 
-    #'((basic-distance . 12) 
-       (minimum-distance . 8) 
-       (padding . 2) 
-       (stretchability . 10)) 
+\header {
+ title = "Vive le vent"
+ tagline = "" 
 }
-
-\layout {
-  \context {
-    \Score
-    \omit BarNumber
-  }
-  \context {
-    \Lyrics
-    \override VerticalAxisGroup.staff-affinity = ##f
-    \override VerticalAxisGroup.staff-staff-spacing =
-       #'((basic-distance . 0)
-	   (minimum-distance . 2)
-	   (padding . 2))
-  }
-}
-
-\header{
-  title = "Vive le vent"
-  tagline = "" 
-}
-
-% for reference
-% ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ◯
 
 \markup {
   \column {
-  \vspace #1
+  \vspace #0.5
   \fill-line { \column { \line { 
-    \fontsize #9 { ① ② ③ ④ ⑤ ◯ ◯ ◯ }}}}
-  \vspace #1
+    \fontsize #5 { \oc \od \oe \of \og \oo \oo \oo}}}}
+  \vspace #0.5
   }
 }
 
@@ -64,15 +37,15 @@
  } 
 
 \addlyrics {
-    \set fontSize = #8
-    ③ ③ ③ ③ ③ ③ 
-    ③ ⑤ ① ② ③
-    ④ ④ ④ ④ ③ ③ ③ ③ 
-    ② ② ② ③ ② ⑤
-    ③ ③ ③ ③ ③ ③ 
-    ③ ⑤ ① ② ③
-    ④ ④ ④ ④ ③ ③ ③ ③
-    ⑤ ⑤ ④ ② ①
+    \set fontSize = #4
+    \oe \oe \oe \oe \oe \oe
+    \oe \og \oc \od \oe
+    \of \of \of \of \oe \oe \oe \oe
+    \od \od \od \oe \od \og
+    \oe \oe \oe \oe \oe \oe
+    \oe \og \oc \od \oe
+    \of \of \of \of \oe \oe \oe \oe
+    \og \og \of \od \oc
  }
 
   \addlyrics {
