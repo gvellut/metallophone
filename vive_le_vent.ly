@@ -2,6 +2,8 @@
 \include "common.ly"
 \include "colorize.ly"
 
+% Adapted from typeset CC-by Jean-Michel Thiémonge @pianognu.blogspot.fr
+
 \header {
  title = "Vive le vent"
  tagline = "" 

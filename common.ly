@@ -9,8 +9,10 @@
     #'((basic-distance . 12) 
        (minimum-distance . 1) 
        (padding . 1) 
-       (stretchability . 10)) 
+       (stretchability . 1)) 
   print-page-number = ##f
+  top-margin = 0.5\in
+  bottom-margin = 0.5\in
 }
 
 \layout {
