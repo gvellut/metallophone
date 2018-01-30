@@ -24,9 +24,9 @@
    \relative c' {
       c8 e c e g16 g g g g8 g8
       a a a c g g g4
-      f8 f f g e16 e e e e8 e
+      f8 f f g \break e16 e e e e8 e
       d d d e c e g4
-      f8 f f g e16 e e e e8 e
+      f8 f f g \break e16 e e e e8 e
       d d d e c c c4
 
       \bar "|."
