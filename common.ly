@@ -11,7 +11,7 @@
        (padding . 1) 
        (stretchability . 1)) 
   print-page-number = ##f
-  top-margin = 0.5\in
+  top-margin = 0.1\in
   bottom-margin = 0.5\in
 }
 
