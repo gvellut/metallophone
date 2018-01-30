@@ -51,11 +51,11 @@
 
   \addlyrics{
    Le bon roi Da- go- bert a
- mis sa cu- lotte à l'en- vers.
+ mis sa cu- lotte à l'en- vers
  Le grand Saint- E- loi
- lui dit Ô mon roi,
- vo- tre ma- jes- té est mal cu- lo- té.
- C'est vrai, lui dit le Roi. Je vais la re- mettre à l'en- droit
+ lui dit Ô mon roi
+ vo- tre ma- jes- té est mal cu- lo- té
+ C'est vrai lui dit le roi Je vais la re- mettre à l'en- droit
   }
 >>
 

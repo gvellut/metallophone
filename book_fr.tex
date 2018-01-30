@@ -1,0 +1,106 @@
+\documentclass[17pt,letterpaper]{extarticle}
+\usepackage{pdfpages}
+\usepackage[utf8]{inputenc}\usepackage{tocloft}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{tikz}
+
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+
+\setlength{\footskip}{100pt}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\contentsname}{Table des matières}
+\setlength{\parindent}{0ex}
+
+\makeatletter
+
+\def\clearleftpage{\clearpage\ifodd\c@page\else
+\hbox{}\newpage\if@twocolumn\hbox{}\newpage\fi\fi}
+
+\makeatother
+
+\title{12 Partitions pour Xylyophone \& Métallophone à 8 barres}
+\date{29 Janvier 2018}
+\author{Guilhem Vellut}
+
+\begin{document}
+\includepdfset{pagecommand=\thispagestyle{plain}}
+\setcounter{secnumdepth}{-1}
+\setcounter{page}{1}
+
+\maketitle
+
+\clearleftpage
+
+\tableofcontents
+\vfill \small{ * CC-BY Jean-Michel Thiémonge, adapté pour xylophone}
+
+\clearleftpage
+
+\section{Introduction}
+
+Ce livre inclue des partitions pour xylophones et métallophones à 8 barres (1 octave). La plupart de ces instruments vendus pour les enfants sont de ce type, par exemple le Métallophone Animambo ou le Xylophone Fisher-Price.\\
+
+Etant donné que ce livre s'adresse à des jeunes enfants, j'ai ajouté à toutes les notes une indication de la couleur de la barre du xylophone à taper. Il est ainsi possible de suivre les partitions sans avoir besoin de savoir lire la notation musicale classique. Par contre, comme ce livre est imprimé en noir et blanc et que les couleurs des barres varient selon la marque de l'instrument, il faut colorier vous-mêmes les notes selon le schéma de couleurs spécifique à votre xylophone ou métallophone.\\
+
+\subsection{Instructions pour le coloriage des notes}
+
+Pour vous aider, regardez la photo d'un xylophone à 8 touches sur la page suivante.\\
+
+Les barres sont numérotées de \circled{1} à \circled{8} :
+\begin{itemize}
+  \item \circled{1} pour la barre la plus grande (Do grave) 
+  \item \circled{8} pour la barre la plus petite (Do aigu)
+  \item Entre les deux Do, la taille des barres diminue : Ré \circled{2}, Mi \circled{3}, Fa \circled{4}, Sol \circled{5}, La \circled{6}, Si \circled{7}
+\end{itemize}
+
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{xylophone_bw.png}
+\end{figure}
+
+Toutes les chansons du livre contiennent en entête la liste des barres utilisées dans la partition, de \circled{1} à \circled{8} comme sur la photo. Souvent, toutes les barres de l'instrument ne sont pas utilisées.\\
+
+Il faut commencer par colorier ces cercles numérotés en utilisant la couleur de la barre correspondante de votre instrument, en vous aidant de la photo ci-dessus. Ensuite, il faut recopier ces couleurs pour le reste des notes de la partition.\\
+
+Enfin, jouez !
+
+\clearleftpage
+
+\addcontentsline{toc}{section}{Au clair de la lune}
+\includepdf[pages=1-,pagecommand={\null\clearpage}]{au_clair_de_la_lune.pdf}
+
+\clearleftpage
+
+\addcontentsline{toc}{section}{L'alphabet}
+\includepdf[pages=1-,pagecommand={\null\clearpage}]{alphabet_fr.pdf}
+
+\clearleftpage
+
+\addcontentsline{toc}{section}{À la claire fontaine}
+\includepdf[pages=1-,pagecommand={\null\clearpage}]{a_la_claire_fontaine.pdf}
+
+\clearleftpage
+
+\addcontentsline{toc}{section}{Dansons la capucine}
+\includepdf[pages=1-,pagecommand={\null\clearpage}]{dansons_la_capucine.pdf}
+
+\clearleftpage
+
+\addcontentsline{toc}{section}{Vive le vent}
+\includepdf[pages=1-,pagecommand={\null\clearpage}]{vive_le_vent.pdf}
+
+\clearleftpage
+
+\addcontentsline{toc}{section}{À la pêche aux moules}
+\includepdf[pages=1-,pagecommand={\null\clearpage}]{a_la_peche_aux_moules.pdf}
+
+\clearleftpage
+
+\addcontentsline{toc}{section}{Le roi Dagobert}
+\includepdf[pages=1-,pagecommand={\null\clearpage}]{dagobert.pdf}
+
+
+
+
+\end{document}

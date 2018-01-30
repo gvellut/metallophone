@@ -3,7 +3,7 @@
 \include "colorize.ly"
 
 \header {
- title = "A la pêche aux moules"
+ title = "À la pêche aux moules"
  tagline = "" 
 }
 
@@ -45,7 +45,7 @@
  }
 
   \addlyrics {
-    A la pêche aux mou- les, mou- les, mou- les,
+    À la pêche aux mou- les, mou- les, mou- les,
     Je n'veux plus "y al-" ler ma- man,
     les gens de la vil- le, vil- le, vil- le
     m'ont pris mon pa- nier ma- man.

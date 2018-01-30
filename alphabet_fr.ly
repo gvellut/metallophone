@@ -3,7 +3,7 @@
 \include "colorize.ly"
 
 \header {
- title = "L'Alphabet"
+ title = "L'alphabet"
  tagline = "" 
 }
 
