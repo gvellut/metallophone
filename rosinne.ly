@@ -62,13 +62,13 @@
 
 \addlyrics {
   Bon -- jour bel -- le Ro -- si -- ne,
-      Com -- ment vous por -- tez- vous_?
+      com -- ment vous por -- tez- vous_?
       Vous me fai -- tes la mi -- ne,
-      Di -- tes- moi, qu'a -- vez- vous_?
+      di -- tes- moi, qu'a -- vez- vous_?
       C'est mon a -- mi qu'est par -- ti ce ma -- tin,
-      Ce qui me cau -- se, ce qui me cau -- se...
+      ce qui me cau -- se, ce qui me cau -- se...
       C'est mon a -- mi qu'est par -- ti ce ma -- tin,
-      Ce qui me cau -- se bien du cha -- grin. 
+      ce qui me cau -- se bien du cha -- grin 
 } 
  
 >>

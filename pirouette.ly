@@ -56,10 +56,10 @@
 
 \addlyrics {
   Il é- tait un pe- tit hom- me,
-  _Pi- rouet- te, ca- ca- huè- te.
+  _Pi- rouet- te, ca- ca- huè- te
   _Il é- tait un pe-tit hom- me,
-  _Qui a- vait une drôle de mai- son
-  _Qui a- vait _une drôle de mai- son. 
+  _qui a- vait une drôle de mai- son,
+  _qui a- vait _une drôle de mai- son
 } 
  
 >>

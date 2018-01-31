@@ -4,7 +4,6 @@
 \usepackage{pst-grad}
 \usepackage{graphicx}
 \usepackage{lipsum}
-\usepackage{svg}
 
 \setlength{\parindent}{0ex}
 
@@ -33,41 +32,36 @@
 \newsavebox\Titlebbox
 \sbox\Titlebbox{\begin{minipage}{6in} \centering
 \lineskip=10pt
-\PT \textcolor{white}{12 Partitions pour\\\mbox{Xylophone}\\ \&\\ \mbox{Métallophone}\\ à 8 barres}
+\PT \textcolor{white}{12 Partitions pour\\\mbox{Xylophone}\\ \&\\ \mbox{Métallophone}\\ à 8 Barres}
 \end{minipage}}
 
 % And position the box
 \rput[t](13.05525,10){\usebox\Titlebbox}
-\rput[t](13.05525,5){\PTsmall \color{white}{Guilhem Vellut}}
+\rput[t](13.05525,1.5){\PTsmall \color{white}{Guilhem Vellut}}
 
 \newsavebox\IBox
-\sbox\IBox{\includesvg{xylophone.svg}}
+\sbox\IBox{\includegraphics[height=3in]{xylophone_cover.png}}
 
-\rput[lb](7.24,0){\usebox\IBox}
+\rput[t](13.05525,5.4){\usebox\IBox}
 
 \newsavebox\Contentbbox
 \sbox\Contentbbox{\begin{minipage}{8in} \centering
-\lineskip=15pt
-\baselineskip=15pt
-\lineskiplimit=15pt
+\lineskip=25pt
+\baselineskip=35pt
+\lineskiplimit=-\maxdimen
 \PTsmallest \color{white}
 Au clair de la lune\newline
-\par
 L'alphabet\newline
-\par
-\baselineskip=10pt
-À la claire fontaine\newline
-\par
-\baselineskip=15pt
 Pirouette Cacahuète\\
 Dansons la capucine\newline
-Il court, il court, le furet\\
+Il court, il court, le furet\newline
 Promenons-nous dans les bois\\
-Vive le vent\\
-Frère Jacques\newline
-Bonjour, belle Rosinne\newline
-À la pêche aux moules\\
-Le roi Dagobert
+Vive le vent\newline
+Frère Jacques\\
+À la claire fontaine\\
+Le roi Dagobert\newline
+À la pêche aux moules\newline
+Bonjour, belle Rosinne
 \par
 \end{minipage}}
 \rput[t](4.35175,10){\usebox\Contentbbox}
@@ -88,21 +82,6 @@ Le roi Dagobert
 \psframe[fillstyle=solid,fillcolor=Cerulean,linecolor=Cerulean,dimen=outer](6.9628,0)(7.54303333,3.0)
 \psframe[fillstyle=solid,fillcolor=SpringGreen,linecolor=SpringGreen,dimen=outer](7.54303333,0)(8.12326667,3.0)
 \psframe[fillstyle=solid,fillcolor=Sepia,linecolor=Sepia,dimen=outer](8.12326667,0)(8.7035,3.0)
-\psframe[fillstyle=solid,fillcolor=BurntOrange,linecolor=BurntOrange,dimen=outer](8.7035,0)(9.28373333,3.0)
-\psframe[fillstyle=solid,fillcolor=RubineRed,linecolor=RubineRed,dimen=outer](9.28373333,0)(9.86396667,3.0)
-\psframe[fillstyle=solid,fillcolor=Cerulean,linecolor=Cerulean,dimen=outer](9.86396667,0)(10.4442,3.0)
-\psframe[fillstyle=solid,fillcolor=SkyBlue,linecolor=SkyBlue,dimen=outer](10.4442,0)(11.02443333,3.0)
-\psframe[fillstyle=solid,fillcolor=Brown,linecolor=Brown,dimen=outer](11.02443333,0)(11.60466667,3.0)
-\psframe[fillstyle=solid,fillcolor=DarkOrchid,linecolor=DarkOrchid,dimen=outer](11.60466667,0)(12.1849,3.0)
-\psframe[fillstyle=solid,fillcolor=Maroon,linecolor=Maroon,dimen=outer](12.1849,0)(12.76513333,3.0)
-\psframe[fillstyle=solid,fillcolor=Melon,linecolor=Melon,dimen=outer](12.76513333,0)(13.34536667,3.0)
-\psframe[fillstyle=solid,fillcolor=MidnightBlue,linecolor=MidnightBlue,dimen=outer](13.34536667,0)(13.9256,3.0)
-\psframe[fillstyle=solid,fillcolor=BrickRed,linecolor=BrickRed,dimen=outer](13.9256,0)(14.50583333,3.0)
-\psframe[fillstyle=solid,fillcolor=LimeGreen,linecolor=LimeGreen,dimen=outer](14.50583333,0)(15.08606667,3.0)
-\psframe[fillstyle=solid,fillcolor=BlueViolet,linecolor=BlueViolet,dimen=outer](15.08606667,0)(15.6663,3.0)
-\psframe[fillstyle=solid,fillcolor=ForestGreen,linecolor=ForestGreen,dimen=outer](15.6663,0)(16.24653333,3.0)
-\psframe[fillstyle=solid,fillcolor=Peach,linecolor=Peach,dimen=outer](16.24653333,0)(16.82676667,3.0)
-\psframe[fillstyle=solid,fillcolor=Sepia,linecolor=Sepia,dimen=outer](16.82676667,0)(17.407,3.0)
 
 \end{pspicture}
 \end{document}

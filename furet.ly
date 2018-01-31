@@ -63,10 +63,10 @@
 }
 
 \addlyrics{
-  Il court, il court, le fu -- ret, le fu -- ret du bois Mes -- dames_
-  il court, il court, le fu -- ret, le fu -- ret du bois jo -- li,
-  il est pas -- sé par i -- ci, il re- pas- se- ra par là,
-  le fu -- ret du bois Mes -- dames, le fu -- ret du bois jo -- li.
+  Il court, il court, le fu -- ret, le fu -- ret du bois Mes -- dames
+  Il court, il court, le fu -- ret, le fu -- ret du bois jo -- li
+  Il est pas -- sé par i -- ci, il re- pas- se- ra par là,
+  le fu -- ret du bois Mes -- dames, le fu -- ret du bois jo -- li
 } 
  
 >>

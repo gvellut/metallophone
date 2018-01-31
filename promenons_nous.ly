@@ -55,9 +55,9 @@
 
 \addlyrics {
   Prom' -- nons- nous dans les bois
-  Pen -- dant que le loup n'y_est pas,
+  pen -- dant que le loup n'y_est pas,
   Si le loup y_é -- tait,
-  Il nous man -- ge -- rait.
+  il nous man -- ge -- rait
   Mais comme il n'y_est pas, il nous mange- ra pas. 
 } 
  

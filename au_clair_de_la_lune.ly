@@ -3,7 +3,7 @@
 \include "colorize.ly"
 
 \header {
- title = "Au clair de la lune"
+ title = "Au clair de la Lune"
  tagline = "" 
 }
 

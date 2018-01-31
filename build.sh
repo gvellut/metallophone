@@ -10,3 +10,5 @@ done
 
 xelatex book_fr.tex
 xelatex book_fr.tex
+
+xelatex cover_fr.tex

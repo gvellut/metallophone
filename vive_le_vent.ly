@@ -52,11 +52,11 @@
 
   \addlyrics {
    Vive le vent, vive le vent,
-Vive le vent d'hi- ver
-Qui s'en va sif- flant, souf- flant
-Dans les grands sa- pins verts, oh!
+vive le vent d'hi- ver
+qui s'en va sif- flant, souf- flant
+dans les grands sa- pins verts, oh!
 Vive le temps, vive le temps,
-Vive le temps d'hi- ver
+vive le temps d'hi- ver
 Boules de neige et jour de l'an
 Et bonne an- née grand- mère
   }

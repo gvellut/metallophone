@@ -12,3 +12,13 @@ To use, print the score and color the numbered circles according to the color sc
 
 Then, when playing, simply follow the colors to know which bar to strike.
 
+## Acknowledgement
+
+Most scores in this repository are adapted from LilyPond files distributed under CC-BY license:
+- [Jean-Michel Thiémonge / Piano GNU](https://pianognu.blogspot.fr) (CC-BY)
+- [Wikisource Partitions](https://fr.wikisource.org/wiki/Catégorie:Partitions) (CC-BY-SA)
+
+See inside the LilyPond files for details.
+
+The modified scores are distributed under CC-BY-SA.
+

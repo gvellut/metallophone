@@ -46,11 +46,11 @@
 
   \addlyrics {
     À la pêche aux mou- les, mou- les, mou- les,
-    Je n'veux plus "y al-" ler ma- man,
-    les gens de la vil- le, vil- le, vil- le
-    m'ont pris mon pa- nier ma- man.
+    je n'veux plus "y al-" ler ma- man,
     Les gens de la vil- le, vil- le, vil- le
-    m'ont pris mon pa- nier ma- man.
+    m'ont pris mon pa- nier ma- man
+    Les gens de la vil- le, vil- le, vil- le
+    m'ont pris mon pa- nier ma- man
 
   }
 
