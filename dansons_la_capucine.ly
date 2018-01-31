@@ -2,8 +2,8 @@
 \include "common.ly"
 \include "colorize.ly"
 
-\header c
- title = "Dansons la Capucine"
+\header {
+ title = "Dansons la capucine"
  tagline = "" 
 }
 
@@ -77,7 +77,6 @@
   \line{Y'a du plaisir chez nous}
   \line{On pleur' chez la voisine}
   \line{On rit toujours chez nous}
-  \line{You !}
   }
 }
 

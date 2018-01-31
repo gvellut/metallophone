@@ -30,7 +30,7 @@
   
   a4 c8 b
   a g a b \break
-  c16 c g8 c d
+  c8  g8 c d
   
   e4 d8 d
   a4 c8 b
@@ -41,12 +41,12 @@
   c4 c8 b
   
   a g a b
-  c c c b
+  c4 c8 b
   a g a b \break
   
   c4 c8 b
   a g a b
-  c \bar "|."
+  c4 r4 \bar "|."
   }
 }
 
@@ -54,19 +54,19 @@
     \set fontSize = #4
     \oc \of \og \oap \og \og
     \od \of \oe \od \oc \od \oe
-    \of \of \oc \of \og \oap \og \og
+    \of \oc \of \og \oap \og \og
     \od \of \oe \od \oc \od \of \of
     \of \oe \od \oc \od \oe \of 
-    \of \oe \od \oc \od \oe \of \of 
+    \of \oe \od \oc \od \oe \of
     \of \oe \od \oc \od \oe \of 
     \of \oe \od \oc \od \oe \of
 }
 
 \addlyrics{
-  Il court, il court, le fu -- ret, le fu -- ret du bois Mes -- da -- mes_;
+  Il court, il court, le fu -- ret, le fu -- ret du bois Mes -- dames_
   il court, il court, le fu -- ret, le fu -- ret du bois jo -- li,
-  il a pas -- sé par i -- ci, le fu -- ret du bois Mes -- da -- mes,
-  il a pas -- sé par i -- ci, le fu -- ret du bois jo -- li.
+  il est pas -- sé par i -- ci, il re- pas- se- ra par là,
+  le fu -- ret du bois Mes -- dames, le fu -- ret du bois jo -- li.
 } 
  
 >>

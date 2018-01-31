@@ -1,9 +1,11 @@
 \documentclass[17pt,letterpaper]{extarticle}
 \usepackage{pdfpages}
-\usepackage[utf8]{inputenc}\usepackage{tocloft}
+\usepackage[utf8]{inputenc}
+\usepackage{tocloft}
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{tikz}
+\usepackage{epstopdf}
 
 \newcommand*\circled[1]{\tikz[baseline=(char.base)]{
             \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
@@ -20,9 +22,9 @@
 
 \makeatother
 
-\title{12 Partitions pour Xylyophone \& Métallophone à 8 barres}
-\date{29 Janvier 2018}
+\title{12 Partitions pour Xylophone \& Métallophone à 8 barres}
 \author{Guilhem Vellut}
+\date{}
 
 \begin{document}
 \includepdfset{pagecommand=\thispagestyle{plain}}
@@ -31,22 +33,33 @@
 
 \maketitle
 
-\clearleftpage
+\clearpage
+\vspace*{\fill}
+
+{\tiny 1ère édition - Janvier 2018 \\ Mis en page avec LilyPond et \LaTeX \\
+\newline
+\includegraphics{by-sa} \\
+\newline
+CC-BY-SA Guilhem Vellut\\
+Contient des partitions adaptées de Jean-Michel Thiémonge / Piano GNU (CC-BY)\\
+Contient des partitions adaptées du projet Wikisource Partitions (CC-BY-SA)\\
+Voir goo.gl/oMiAjK pour détails \par}
+
+\clearpage
 
 \tableofcontents
-\vfill \small{ * CC-BY Jean-Michel Thiémonge, adapté pour xylophone}
 
 \clearleftpage
 
 \section{Introduction}
 
-Ce livre inclue des partitions pour xylophones et métallophones à 8 barres (1 octave). La plupart de ces instruments vendus pour les enfants sont de ce type, par exemple le Métallophone Animambo ou le Xylophone Fisher-Price.\\
+Ce livre contient des partitions pour xylophones et métallophones à 8 barres (1 octave). La plupart de ces instruments vendus pour les enfants sont de ce type, par exemple le Métallophone Animambo ou le Xylophone Fisher-Price.\\
 
-Etant donné que ce livre s'adresse à des jeunes enfants, j'ai ajouté à toutes les notes une indication de la couleur de la barre du xylophone à taper. Il est ainsi possible de suivre les partitions sans avoir besoin de savoir lire la notation musicale classique. Par contre, comme ce livre est imprimé en noir et blanc et que les couleurs des barres varient selon la marque de l'instrument, il faut colorier vous-mêmes les notes selon le schéma de couleurs spécifique à votre xylophone ou métallophone.\\
+Comme ces partitions sont destinées à des jeunes enfants, j'ai ajouté en-dessous de chaque note une indication de la couleur de la barre du xylophone à taper. Il est ainsi possible de jouer les partitions sans avoir besoin de savoir lire la notation musicale classique.\\
 
-\subsection{Instructions pour le coloriage des notes}
+Par contre, ce livre est imprimé en noir et blanc et les couleurs des barres varient selon la marque de l'instrument : il faut donc colorier vous-mêmes les notes selon le schéma de couleurs spécifique à votre xylophone ou métallophone.\\
 
-Pour vous aider, regardez la photo d'un xylophone à 8 touches sur la page suivante.\\
+Pour vous aider, regardez la photo d'un xylophone à 8 barres sur la page suivante.\\
 
 Les barres sont numérotées de \circled{1} à \circled{8} :
 \begin{itemize}
@@ -61,9 +74,7 @@ Les barres sont numérotées de \circled{1} à \circled{8} :
 
 Toutes les chansons du livre contiennent en entête la liste des barres utilisées dans la partition, de \circled{1} à \circled{8} comme sur la photo. Souvent, toutes les barres de l'instrument ne sont pas utilisées.\\
 
-Il faut commencer par colorier ces cercles numérotés en utilisant la couleur de la barre correspondante de votre instrument, en vous aidant de la photo ci-dessus. Ensuite, il faut recopier ces couleurs pour le reste des notes de la partition.\\
-
-Enfin, jouez !
+Pour préparer une partition, il est conseillé de commencer par colorier ces cercles numérotés en utilisant la couleur de la barre correspondante de votre instrument. Ensuite, il faut recopier ces couleurs pour le reste des notes de la partition. Finalement, jouez !
 
 \clearleftpage
 
@@ -82,13 +93,38 @@ Enfin, jouez !
 
 \clearleftpage
 
+\addcontentsline{toc}{section}{Pirouette Cacahuète}
+\includepdf[pages=1-,pagecommand={\null\clearpage}]{pirouette.pdf}
+
+\clearleftpage
+
 \addcontentsline{toc}{section}{Dansons la capucine}
 \includepdf[pages=1-,pagecommand={\null\clearpage}]{dansons_la_capucine.pdf}
 
 \clearleftpage
 
+\addcontentsline{toc}{section}{Il court, il court, le furet}
+\includepdf[pages=1-,pagecommand={\null\clearpage}]{furet.pdf}
+
+\clearleftpage
+
+\addcontentsline{toc}{section}{Promenons-nous dans les bois}
+\includepdf[pages=1-,pagecommand={\null\clearpage}]{promenons_nous.pdf}
+
+\clearleftpage
+
 \addcontentsline{toc}{section}{Vive le vent}
 \includepdf[pages=1-,pagecommand={\null\clearpage}]{vive_le_vent.pdf}
+
+\clearleftpage
+
+\addcontentsline{toc}{section}{Frère Jacques}
+\includepdf[pages=1-,pagecommand={\null\clearpage}]{frere_jacques.pdf}
+
+\clearleftpage
+
+\addcontentsline{toc}{section}{Bonjour, belle Rosinne}
+\includepdf[pages=1-,pagecommand={\null\clearpage}]{rosinne.pdf}
 
 \clearleftpage
 
