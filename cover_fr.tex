@@ -10,32 +10,23 @@
 \begin{document}
 \pagestyle{empty}
 
-% create the box with the front cover picture
-%\newsavebox\IBox
-%\sbox\IBox{\includegraphics[height=11.250in]{by-sa.eps}}
-
-% set up the picture environment
 \psset{unit=1in}
 \begin{pspicture}(17.407in,11.250in)
 
-% set up the fonts we use
 \DeclareFixedFont{\PT}{T1}{ppl}{b}{n}{0.7in}
 \DeclareFixedFont{\PTsmall}{T1}{ppl}{b}{n}{0.4in}
 \DeclareFixedFont{\PTsmallest}{T1}{ppl}{b}{n}{0.3in}
 \DeclareFixedFont{\PTtext}{T1}{ppl}{b}{it}{11pt}
 
-
 \psframe[fillstyle=solid,fillcolor=Goldenrod,linecolor=Goldenrod,dimen=outer](0,0)(8.7035,11.250)
 \psframe[fillstyle=solid,fillcolor=Turquoise,linecolor=Turquoise,dimen=outer](8.7035,0)(17.407,11.250)
 
-% put the text on the front cover
 \newsavebox\Titlebbox
 \sbox\Titlebbox{\begin{minipage}{6in} \centering
 \lineskip=10pt
 \PT \textcolor{white}{12 Partitions pour\\\mbox{Xylophone}\\ \&\\ \mbox{Métallophone}\\ à 8 Barres}
 \end{minipage}}
 
-% And position the box
 \rput[t](13.05525,10){\usebox\Titlebbox}
 \rput[t](13.05525,1.5){\PTsmall \color{white}{Guilhem Vellut}}
 
@@ -50,7 +41,7 @@
 \baselineskip=35pt
 \lineskiplimit=-\maxdimen
 \PTsmallest \color{white}
-Au clair de la lune\newline
+Au clair de la Lune\newline
 L'alphabet\newline
 Pirouette Cacahuète\\
 Dansons la capucine\newline
