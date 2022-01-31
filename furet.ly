@@ -65,7 +65,7 @@
 \addlyrics{
   Il court, il court, le fu -- ret, le fu -- ret du bois Mes -- dames
   Il court, il court, le fu -- ret, le fu -- ret du bois jo -- li
-  Il est pas -- sé par i -- ci, il re- pas- se- ra par là,
+  Il est pas -- sé par i -- ci, il re -- pas -- se -- ra par là,
   le fu -- ret du bois Mes -- dames, le fu -- ret du bois jo -- li
 } 
  

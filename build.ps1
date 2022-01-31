@@ -9,4 +9,5 @@ xelatex book_fr.tex
 
 xelatex cover_fr.tex
 
+# conda activate xyl_ultimate
 python .\remove_last_page.py .\book_fr.pdf 

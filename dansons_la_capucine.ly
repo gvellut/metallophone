@@ -42,10 +42,10 @@
     }
 
   \addlyrics {
-    Dan- sons la ca- pu- ci- ne
+    Dan -- sons la ca -- pu -- ci -- ne
    Y'a pas de pain chez nous
-   Y'en a chez la voi- si- ne
-   Mais ce n'est pas pour nous.
+   Y'en a chez la voi -- si -- ne
+   Mais ce n'est pas pour nous
   }
 
  
@@ -79,7 +79,3 @@
   \line{On rit toujours chez nous}
   }
 }
-
-
-
-

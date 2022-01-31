@@ -46,11 +46,11 @@
  }
 
 \addlyrics {
-  À la clai- re fon- tai- ne,
-  m'en al- lant pro- me- ner,
-  j'ai trou- vé l'eau si bel- le
-  que je m'y suis bai- gné
-  Il y'a long- temps que je t'ai- me ja- mais je ne t'ou- blie- rai
+  À la clai -- re fon -- tai -- ne,
+  m'en al -- lant pro -- me -- ner,
+  j'ai trou -- vé l'eau si bel -- le
+  que je m'y suis bai -- gné
+  Il y'a long -- temps que je t'ai -- me ja -- mais je ne t'ou -- blie -- rai
 }
 
 >>
@@ -65,8 +65,3 @@
   }
 
 }
-
-
-
-
-

@@ -72,13 +72,13 @@
  \addlyrics {
     Au clair de la Lu -- ne
     mon a -- mi Pier -- rot
-    prê -- te moi ta plu -- me
+    prê -- te- moi ta plu -- me
     pour é -- crire un mot
     ma chan -- delle est
     mor -- te
     je n'ai plus de
     feu,
-    ou -- vre moi ta
+    ou -- vre- moi ta
     por -- te
     pour l'a -- mour de
     Dieu
