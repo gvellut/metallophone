@@ -36,10 +36,7 @@
     g a
     g8 f g4
     c f,
-    
 
-    
-  
   \bar "|."
 
 }
@@ -58,7 +55,7 @@
   pen -- dant que le loup n'y_est pas,
   Si le loup y_é -- tait,
   il nous man -- ge -- rait
-  Mais comme il n'y_est pas, il nous mange- ra pas. 
+  Mais comme il n'y_est pas, il nous mange- ra pas
 } 
  
 >>

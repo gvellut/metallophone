@@ -8,3 +8,5 @@ xelatex book_fr.tex
 xelatex book_fr.tex
 
 xelatex cover_fr.tex
+
+python .\remove_last_page.py .\book_fr.pdf 
