@@ -34,9 +34,9 @@
       d2 d8 e d c
       b4 g \break d'8 e d c
 
-      b4 g g d
-      g2 g4 d
-      g2 \bar "|."
+      b4 g g d'
+      g,2 g4 d'
+      g,2 \bar "|."
     } 
 }
 
@@ -45,7 +45,7 @@
     \oc \od \oe \oc \oc \od \oe \oc
     \oe \of \og \oe \of \og
     \og \oap \og \of \oe \oc \og \oap \og \of
-    \oe \oc \oc \oc \oc \oc \oc \oc
+    \oe \oc \oc \og \oc \oc \og \oc
 }
 
 \addlyrics{
@@ -67,5 +67,3 @@
   }
 
 }
-
-

@@ -18,7 +18,9 @@
   }
 }
 
-<<
+
+\score {
+\new Staff <<
  {
    \clef treble
    \time 2/4
@@ -60,8 +62,18 @@ vive le temps d'hi- ver
 Boules de neige et jour de l'an
 Et bonne an- née grand- mère
   }
-
  
 >>
 
 
+
+\layout { }
+
+\midi {
+    \context {
+      \Score
+      tempoWholesPerMinute = #(ly:make-moment 100 4)
+    }
+  }
+
+}

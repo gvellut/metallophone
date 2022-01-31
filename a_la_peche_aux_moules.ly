@@ -16,7 +16,9 @@
   }
 }
 
-<<
+
+\score {
+\new Staff <<
  {
    \clef treble
    \time 2/4
@@ -57,5 +59,13 @@
  
 >>
 
+\layout { }
 
+\midi {
+    \context {
+      \Score
+      tempoWholesPerMinute = #(ly:make-moment 100 4)
+    }
+  }
 
+}

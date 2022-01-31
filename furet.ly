@@ -30,11 +30,11 @@
   
   a4 c8 b
   a g a b \break
-  c8  g8 c d
+  c8 g8 c d
   
   e4 d8 d
   a4 c8 b
-  a g a c
+  a g a b
   
   c r c b
   a g a b
@@ -81,4 +81,3 @@
   }
 
 }
-

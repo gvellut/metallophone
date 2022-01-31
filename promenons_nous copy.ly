@@ -13,7 +13,7 @@
   \column {
   \vspace #0.5
   \fill-line { \column { \line { 
-    \fontsize #5 { \oc \oo \oo \of \og \oap \oo \ocp}}}}
+    \fontsize #5 { \oc \od \oe \oo \og \oo \oo \oo}}}}
   \vspace #0.5
   }
 }
@@ -23,34 +23,36 @@
  \clef treble
  \time 2/4
  \key c \major 
- \relative c' {
-    f8 f f4
-    g8 g c,4
-    f8 f f f
-    g g c,4
-    f8 f f4
-    g a
-    g8 f g4
-    c f,
-    f8 f f4
-    g a
-    g8 f g4
-    c f,
-    
+ \transpose g c {
+ \relative c'' {
+    \partial 4
+    g8 g 
+    g4 a8 a 
+    b4 g8 g
+    g g
+    a a
+    b4 g8 g8
 
+    g4 a
+    b a8 g
+    a4 d
+    g, 
+    
+    g8 g g4 a b a8 g a4 d g,
     
   
   \bar "|."
 
+ }
 }
 
 \addlyrics {
     \set fontSize = #4
-    \of \of \of \og \og \oc
-    \of \of \of \of \og \og \oc
-    \of \of \of \og \oap \og \of \og 
-    \ocp \of \of \of \of \og \oap
-    \og \of \og \ocp \of
+    \oc \oc \oc \od \od \oe
+    \oc \oc \oc \oc \od \od \oe
+    \oc \oc \oc \od \oe \od \oc \od 
+    \og \oc \oc \oc \oc \od \oe
+    \od \oc \od \og \oc
    }
 
 \addlyrics {

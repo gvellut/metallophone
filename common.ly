@@ -13,6 +13,8 @@
   print-page-number = ##f
   top-margin = 0.1\in
   bottom-margin = 0.5\in
+  left-margin = 0.63\in
+  right-margin = 0.3\in
 }
 
 \layout {
@@ -29,4 +31,3 @@
 	   (padding . 1.5))
   }
 }
-

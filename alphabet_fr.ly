@@ -16,7 +16,9 @@
   }
 }
 
-<<
+
+\score {
+\new Staff <<
  {
    \clef treble
    \time 2/4
@@ -50,6 +52,16 @@
  je con- nais mon al- pha- bet,
  à toi de le ré- pé- ter
   }
-
  
 >>
+
+\layout { }
+
+\midi {
+    \context {
+      \Score
+      tempoWholesPerMinute = #(ly:make-moment 100 4)
+    }
+  }
+
+}
