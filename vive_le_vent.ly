@@ -60,7 +60,7 @@ dans les grands sa -- pins verts, oh!
 Vive le temps, vive le temps,
 vive le temps d'hi -- ver
 Boules de neige et jour de l'an
-Et bonne an -- née grand -- mère
+Et bonne an -- née grand- mère
   }
  
 >>
